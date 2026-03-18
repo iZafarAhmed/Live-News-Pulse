@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Google AI Studio App</title>
+    <script>
+      // Prevent libraries from trying to overwrite window.fetch
+      (function() {
+        const originalFetch = window.fetch;
+        try {
+          // Try to redefine fetch to have a no-op setter to prevent TypeError
+          Object.defineProperty(window, 'fetch', {
+            get() { return originalFetch; },
+            set(v) { console.warn('Ignored attempt to overwrite window.fetch'); },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          console.warn('Could not redefine window.fetch directly, using proxy fallback');
+          const handler = {
+            set(target, prop, value) {
+              if (prop === 'fetch') return true;
+              target[prop] = value;
+              return true;
+            },
+            get(target, prop) {
+              if (prop === 'global' || prop === 'globalThis') return window.global;
+              return target[prop];
+            }
+          };
+          window.global = new Proxy(window, handler);
+          window.globalThis = window.global;
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
