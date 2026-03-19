@@ -54,6 +54,14 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
+    {
+    id: 'march-19',
+    date: '2026-03-19',
+    label: 'March 19',
+    title: 'Iran war live: Qatar, Saudi energy sites attacked; Riyadh says trust gone',
+    description: 'Iranian strikes on Gulf energy come after Israel attacked Iran’s South Pars gasfield and navy assets in the north.',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone&auto=true'
+  },
   {
     id: 'march-18',
     date: '2026-03-18',
