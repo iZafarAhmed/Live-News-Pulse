@@ -54,7 +54,15 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
-    {
+  {
+    id: 'march-20',
+    date: '2026-03-20',
+    label: 'March 20',
+    title: 'Iran war live: Tehran warns of intensified strikes if energy sites targeted',
+    description: 'Iran strikes Israeli oil refinery in northern city of Haifa as Tehran launches attacks on regional energy facilities.',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-tehran-warns-of-intensified-strikes-if-energy-sites-targeted&auto=true'
+  },
+  {
     id: 'march-19',
     date: '2026-03-19',
     label: 'March 19',
