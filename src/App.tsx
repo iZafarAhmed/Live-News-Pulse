@@ -54,6 +54,14 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
+   {
+    id: 'march-21',
+    date: '2026-03-21',
+    label: 'March 21',
+    title: 'Iran war live: Trump says no ceasefire as Khamenei issues defiant message',
+    description: 'Trump says Strait of Hormuz must be protected from Iranian attacks ‘by other nations who use it’.',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-trump-says-other-nations-have-to-protect-hormuz-from-iran&auto=true'
+  },
   {
     id: 'march-20',
     date: '2026-03-20',
