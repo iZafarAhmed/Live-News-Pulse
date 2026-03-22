@@ -54,6 +54,14 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
+  {
+    id: 'march-22',
+    date: '2026-03-22',
+    label: 'March 22',
+    title: 'Iran war live: Trump threatens to attack power plants over Strait of Hormuz',
+    description: 'Donald Trump threatens to ‘obliterate’ Iran’s power plants if it fails to open the Strait of Hormuz within 48 hours',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-trump-threatens-attacks-on-power-plants-over-hormuz-strait&auto=true'
+  },
    {
     id: 'march-21',
     date: '2026-03-21',
