@@ -54,6 +54,14 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
+    {
+    id: 'march-23',
+    date: '2026-03-23',
+    label: 'March 23',
+    title: 'Iran war live: Tehran threatens to mine Gulf if coast, islands attacked',
+    description: 'Rhetoric ratchets up in US-Israeli war on Iran as Israeli forces blow up Qasimiyah Bridge in southern Lebanon.',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit&auto=true'
+  },
   {
     id: 'march-22',
     date: '2026-03-22',
