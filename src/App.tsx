@@ -54,6 +54,22 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
+   {
+    id: 'march-25',
+    date: '2026-03-25',
+    label: 'March 25',
+    title: 'Iran war live: Tehran confirms receiving US plan but calls it ‘maximalist’',
+    description: 'High-ranking diplomatic source tells Al Jazeera that Tehran received 15-point plan but described it as ‘unreasonable’.',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-trump-again-says-talks-underway-12-killed-in-south-tehran&auto=true'
+  },
+  {
+    id: 'march-24',
+    date: '2026-03-24',
+    label: 'March 24',
+    title: 'Iran war updates: Trump claims talks ongoing, Iran hits central Israel',
+    description: 'These were the updates on the US-Israeli war on Iran on Tuesday, March 24, 2026.',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-tehran-says-trumps-claims-of-peace-talks-fake&auto=true'
+  },
     {
     id: 'march-23',
     date: '2026-03-23',
