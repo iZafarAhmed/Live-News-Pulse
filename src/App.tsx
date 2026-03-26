@@ -55,6 +55,14 @@ interface BlogPost {
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
    {
+    id: 'march-26',
+    date: '2026-03-26',
+    label: 'March 26',
+    title: 'Iran war live: Trump says Tehran ‘begging to make a deal’',
+    description: 'Iranian official describes US’s 15-point plan as ‘maximalist’ as state television outlines five conditions for peace.',
+    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-us-demands-tehran-accept-defeat-israel-pounds-lebanon&auto=true'
+  },  
+   {
     id: 'march-25',
     date: '2026-03-25',
     label: 'March 25',
