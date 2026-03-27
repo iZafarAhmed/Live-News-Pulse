@@ -54,14 +54,6 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
-  {
-    id: 'march-27',
-    date: '2026-03-27',
-    label: 'March 27',
-    title: 'Iran war live: Trump delays attacks on Iranian energy sector by 10 days',
-    description: 'Iranian missiles, drones target Kuwait, UAE, Saudi Arabia and Jordan as Trump says Iran has ‘chance to make a deal’,
-    url: 'https://aljazeera-liveblog-api.vercel.app/?postName=iran-war-live-trump-delays-attacks-on-iranian-energy-sector-by-10-days&auto=true'
-  },
    {
     id: 'march-26',
     date: '2026-03-26',
