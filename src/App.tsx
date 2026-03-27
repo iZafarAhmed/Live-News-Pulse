@@ -54,7 +54,7 @@ interface BlogPost {
 
 // ✅ Blog Posts Data
 const BLOG_POSTS: BlogPost[] = [
-{
+  {
     id: 'march-27',
     date: '2026-03-27',
     label: 'March 27',
